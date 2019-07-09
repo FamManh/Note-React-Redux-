@@ -12,7 +12,7 @@ class AlertInfo extends Component {
     }
     render() {
         return (
-            <AlertContainer>
+            <AlertContainer position='bottom-right'>
                 {this.alerts()}
             </AlertContainer>
         );
